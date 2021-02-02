@@ -1190,7 +1190,7 @@ TARGET_DEVICES += zbtlink_zbt-we826-e
 
 define Device/zbtlink_zbt-wr8305rt
   SOC := mt7620n
-  IMAGE_SIZE := 7872k
+  IMAGE_SIZE := 16064k
   DEVICE_VENDOR := Zbtlink
   DEVICE_MODEL := ZBT-WR8305RT
   DEVICE_PACKAGES := kmod-usb2 kmod-usb-ohci
